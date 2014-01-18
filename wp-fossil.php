@@ -4,7 +4,7 @@
 Plugin Name: WP Fossil
 Plugin URI: http://zslabs.com
 Description: Provides support for media queries and emulating CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.
-Version: 0.1
+Version: 1.0
 Author: Zach Schnackel
 Author URI: http://zslabs.com
 */
@@ -35,10 +35,12 @@ Author URI: http://zslabs.com
  * Load scripts
  * Need to do this inline until wp_add_script_data() is supported (as twentytwelve does)
  * @return void
+ *
+ * @since  0.1
  */
 function wpf_load_scripts() { ?>
 	<!--[if lt IE 9]>
-		<script src="<?php echo plugin_dir_url(__FILE__); ?>assets/js/scripts.min.js" type="text/javascript"></script>
+		<script src="<?php echo plugin_dir_url(__FILE__); ?>assets/js/build/ie.min.js" type="text/javascript"></script>
 	<![endif]-->
 <?php }
 add_action( 'wp_head', 'wpf_load_scripts', 8 );

@@ -1,10 +1,9 @@
 === Plugin Name ===
 Contributors: zslabs
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EEMPDX7SN4RFW
 Tags: ie, ie8, media queries, css3
 Requires at least: 3.5
-Tested up to: 3.6
-Stable tag: 0.1
+Tested up to: 3.8
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,6 +27,11 @@ _Uses conditional statements to only load these libraries in IE8 or older._
 Sure! I'm always open to knew ideas. Just create a new [issue](https://github.com/zslabs/wp-fossil/issues) and I'll take a gander.
 
 == Changelog ==
+
+= 1.0 =
+* Tested up to 3.8
+* Now using [Bower](http://bower.io) and [GruntJS](http://gruntjs.com) to handle assets.
+* This puppy should be ready to go! Now considered feature-complete.
 
 = 0.1 =
 * Initial release
