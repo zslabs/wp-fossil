@@ -1,0 +1,25 @@
+{
+  "name": "wp-fossil",
+  "title": "WP Fossil",
+  "description": "Provides support for media queries and emulating CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.",
+  "version": "1.0.0",
+  "homepage": "http://zslabs.com",
+  "author": {
+    "name": "Zach Schnackel",
+    "email": "info@zslabs.com",
+    "url": "http://zslabs.com"
+  },
+  "licenses": [
+    {
+      "type": "GPL-2.0",
+      "url": "http://opensource.org/licenses/gpl-2.0.php"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": []
+}
